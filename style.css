@@ -1,8 +1,29 @@
 body{
     text-align: center;
+    background-color: antiquewhite;
 }
 
 label {
     display: block;
     padding-bottom: 1rem;
+}
+
+.output-box {
+    width: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+.portfolio {
+    margin-top: 8rem;
 }
