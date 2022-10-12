@@ -12,9 +12,9 @@
     <h1>Stock Purchase Profit-Loss</h1>
 
     <main>
-        <label for="initial-price"><input id="initial-price" type="text" placeholder="Enter Initial Price here"></label>
-        <label for="stocks-quant"><input id="stocks-quant" type="text" placeholder="Enter Number of Stocks"></label>
-        <label for="current-price"><input id="current-price" type="text" placeholder="Enter Current Price"></label>
+        <label for="initial-price"><input id="initial-price" type="number" placeholder="Enter Initial Price here" min="1" ></label>
+        <label for="stocks-quant"><input id="stocks-quant" type="number" placeholder="Enter Number of Stocks" min="1"></label>
+        <label for="current-price"><input id="current-price" type="number" placeholder="Enter Current Price" min="1"></label>
 
         <button id="submit-btn">Tell Me!</button>
         <div class="output-box">
